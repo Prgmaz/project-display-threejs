@@ -9,8 +9,8 @@ This repo contains source code to display projects in HTML, CSS and ThreeJS on y
 ### Download the code using git.
 - First open the folder you want this source code to be in 
 - Open terminal or powershell in that folder
-- Copy this command `git clone https://github.com/Prgmaz/geometry-morphing-threejs.git` and paste it in terminal and press enter
-- Type `cd geometry-morphing-threejs` to change directory
+- Copy this command `git clone https://github.com/Prgmaz/project-display-threejs.git` and paste it in terminal and press enter
+- Type `cd project-display-threejs` to change directory
 - Open the folder with code editor.
 
 ### Building the webpack
