@@ -1,21 +1,24 @@
-# ThreeJS Webpack Template
-This repo is template for using `threejs` with `webpack` bundler.
+# Project Display in ThreeJS
+This repo contains source code to display projects in HTML, CSS and ThreeJS on your website.
 
-## Use this template
-- To use this template, open folder where you want this project to be.
-- Open terminal or powershell to that folder.
-- Type `git clone https://github.com/Prgmaz/threejs-webpack-template.git`
-- Now a folder `threejs-webpack-tempalte` will be created, rename that folder and change git's origin url for your own repository.
+### To run this code, you need following tools 
+- Nodejs
+- Git
+- Visual Studio Code or any other editor
 
-## HTML, CSS, JS and Assets
-To change in HTML, CSS, JS and assets, go to `public` directory and change.
+### Download the code using git.
+- First open the folder you want this source code to be in 
+- Open terminal or powershell in that folder
+- Copy this command `git clone https://github.com/Prgmaz/geometry-morphing-threejs.git` and paste it in terminal and press enter
+- Type `cd geometry-morphing-threejs` to change directory
+- Open the folder with code editor.
 
-## Main.js
-To change in the main script, Go to `src/index.js` and change the code.
+### Building the webpack
+- Open the terminal or powershell in the source code folder
+- Type the following command in the terminal `npm run start`
+- Wait for it to complete
 
-## Run the development server
-To run the dev server, open the terminal in the folder and type `npm install && npm run dev`. This will install all the packages and run webpack watch which will build all files when you change in source code. To run the server, type `npx serve dist` in the folder. This will run a local server to display HTML files.
-
-## Run the production server
-To run the production server, a `start` script is created which can be run by typing `npm run start`. This script will install all the packages and bundle the files in production mode.
+### Running the server
+- If you have done everything correctly, there will be a dist folder in that folder.
+- You can either open it or run it with live server. or `npx serve dist`
 
